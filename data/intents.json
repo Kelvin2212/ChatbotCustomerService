@@ -1,0 +1,111 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Selamat Pagi", "Selamat Siang", "Selamat Malam"],
+     "responses": ["Halo, Saya Martin ada yang bisa saya bantu?"]
+    },
+    {"tag": "bye",
+     "patterns": ["Selamat Tinggal", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye", "Terima Kasih"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan", "Terima Kasih sudah menghubungi kami"]
+    },
+    {"tag": "nama",
+     "patterns": ["nama kamu siapa?", "nama anda siapa?", "nama?", "namanya siapa?"],
+     "responses": ["Namaku Martin, salam kenal kak!", "Halo, aku Martin", "Kenalin, aku Martin"]
+    },
+    {"tag": "pekerjaan",
+     "patterns": ["tugas kamu apa?", "pekerjaan kamu apa?", " kerja anda apa?", "tugas kamu apa?", "tugas anda ngapain?"],
+     "responses": ["Perkenalkan Saya Martin, Pekerjaan saya adalah untuk membantu menjawab pertanyaan Bapak/Ibu"]
+    },
+    {"tag": "pengiriman",
+     "patterns": ["Estimasi pengiriman", "berapa lama pengiriman","pengiriman berapa lama", "kapan barang sampai","waktu barang sampai"],
+     "responses": ["Estimasi pengiriman sekitar 1-2 hari"]
+    },
+    {"tag": "pelacakan",
+     "patterns": ["bagaimana saya melacak pesanan","status pesanan"],
+     "responses": ["Anda akan menerima nomor pelacakan melalui email"]
+    },
+    {"tag": "pengembalian dana",
+     "patterns": ["Saya mengalami kendala dalam pengembalian dana", "Bagaimana saya menerima pengembalian dana", "cara pengembalian dana"],
+     "responses": ["Jika kakak mengalami kendala mengenai pengembalian dana silahkan hubungi live customer service kami","Kami menawarkan jaminan 30 hari untuk pengembalian dana dan nanti akan di transfer ke rekening pembeli."]
+    },
+    {"tag": "dana",
+     "patterns": ["Bagaimana saya menerima pengembalian dana", "cara pengembalian dana"],
+     "responses": ["Kami menawarkan jaminan 30 hari untuk pengembalian dana dan nanti akan di transfer ke rekening pembeli."]
+    },
+    {"tag": "estimasi pengembalian dana",
+    "patterns": ["Estimasi waktu pengembalian dana", "lama pengembalian dana"],
+    "responses": ["Estimasi pengembalian dana sekitar 1-2 hari, Setelah Anda mengajukan pengembalian dana"]
+    },
+    {"tag": "pembatalan",
+     "patterns": ["Dapatkah saya mengubah pesanan", "Dapatkah saya membatalkan pesanan", "Bagaimana saya membatalkan pesanan", "Bagaimana saya mengubah pesanan"],
+     "responses": ["Tentu! Anda dapat membatalkan, atau mengubah pesanan Anda dalam waktu 24 jam setelah pesanan belum dikonfirmasi."]
+    },
+    {"tag": "cara membatalkan pesanan",
+     "patterns": ["Apakah saya bisa membatalkan pesanan", "Apakah saya bisa mengubah pesanan"],
+     "responses": ["Kakak silhkan ke bagian status pesanan, lalu pilih pembatalan pesanan"]
+    },
+    {"tag": "pembayaran",
+     "patterns": ["Metode pembayaran apa saja yang tersedia", "tipe pembayaran", "metode pembayaran", "jenis pembayaran"],
+     "responses": ["Kami menerima semua metode pembayaran dan dari bank apa saja. "]
+    },
+    {"tag": "kendala pembayaran",
+     "patterns": ["Saya mengalami Kendala dalam pembayaran", "kendala dalam pembayaran"],
+     "responses": ["Jika kakak mengalami kendala dalam pembayaran silahkan hubungi live customer service kami"]
+    },
+    {"tag": "pengaturan akun",
+     "patterns": ["mengubah infomasi akun", "mengatur akun", "pengaturan akun", "mengatur akun saya", "akun saya"],
+     "responses": ["kakak bisa masuk ke bagian settings, lalu klik pengaturan akun"]
+    },
+    {"tag" : "Pesanan belum diterima",
+     "patterns" : ["saya belum menerima pesanan", "pesanan belum datang", "pesanan tidak ada", "pesanan belum diterima", "pesanan hilang", "pesanan saya tidak ada"],
+     "responses" : ["pertama kakak bisa melacak terlebih dahulu status pesanan kakak, kalau pesanan belum diterima kakak bisa menghubungi pihak jasa kirim", "kakak dapat menghubungi pihak jasa kirim untuk info lebih lanjut"]	
+    },
+    {"tag" : "cara pembayaran",
+     "patterns" : ["cara melakukan pembayaran", "cara checkout", "cara melakukan pembayaran", "melakukan pembayaran", "cara untuk membayar"],
+     "responses" : ["setelah kakak checkout barang yang kakak inginkan, kakak dapat memilih metode pembayaran yang kami sediakan, lalu kakak bisa mengikuti cara pembayaran pada metode pembayaran kakak"]	
+    },
+    {"tag" : "virtual account",
+     "patterns" : ["Apakah saya bisa melakukan pembayaran menggunakan virtual account?","bagaimana cara melakukan pembayaran dengan virtual account", "vitrual account itu apa", "virtual account"],
+     "responses" : ["untuk melakukan pembayaran virtual account kakak bisa memilik metode pembayaran virtual account"]	
+    },	
+    {"tag" : "keamanan akun",
+     "patterns" : ["cara menjaga keamanan akun", "menjaga keamanan akun", "keamanan akun", "jaga keamanan akun", "proteksi akun", "cara memproteksi akun", "proteksi akun saya"],
+     "responses" : ["untuk menjaga keamanan akun kakak, kakak dapat Rahasiakan Kode atau PIN, merahasiakan data pribadi, Waspada informasi hoax,  Waspada akun penipuan"]	
+    },
+    {"tag" : "penarikan dana refund",
+     "patterns" : ["cara menarik dana refund", "menarik dana refund", "dana refund", "cara menarik pengembalian dana", "menarik pengembalian dana", "penarikan dana refund", "penarikan pengembalian dana"],
+     "responses" : ["untuk menarik dana refund, kakak dapat masuk ke akun saya, lalu ke bagian saldo saya, lalu kakak dapat menarik dana refund kakak ke ATM tujuan kakak"]	
+    },	
+    {"tag" : "ganti password",
+     "patterns" : ["cara mengganti password", "cara ganti password","pergantian password", "ganti password", "mengganti password saya", "mengatur password saya"],
+     "responses" : ["untuk mengganti password kakak, kakak bisa ke pengaturan akun lalu pilih ganti password. lalu kakak akan diminta password lama kakak dan password baru kakak, terima kasih"]	
+    },
+    {"tag" : "lupa password",
+     "patterns" : ["saya lupa password", "lupa password", "password saya hilang", "melupakan password", "saya kelupaaan password saya"],
+     "responses" : ["untuk lupa password kakak dapat ke pengaturan akun kakak, lalu pilih lupa password, lalu kakak akan diminta memasukan password baru kakak dan memasukan kode unik OTP yang dikirimkan ke no ponsel kakak yang terdaftar untuk verifikasi"]	
+    },
+    {"tag" : "ganti email",
+     "patterns" : ["cara mengganti email", "cara ganti email", "pergantian email", "melakukan pergantian email", "cara mengganti email", "ganti email", "mengatur email"],
+     "responses" : ["untuk mengganti email kakak, kakak bisa ke pengaturan akun lalu pilih ganti email. lalu kakak akan diminta email lama kakak dan email baru kakak, terima kasih"]	
+    },
+    {"tag" : "Stock Barang Nike Air Jordan 1 Mid",
+    "patterns" : ["Apakah Produk Sepatu Nike Air Jordan 1 Mid ready stock?"],
+    "responses" : ["Untuk produk tersebut ready stock ya kak silahkan untuk di order"]	
+    },
+    {"tag" : "Stock Barang Air Jordan 1 Zoom Air Comfort",
+    "patterns" : ["Apakah Produk Sepatu Nike Air Jordan 1 Zoom Air Comfort ready stock?"],
+    "responses" : ["Untuk produk tersebut tidak ready stock ya kak, jika sudah ready akan kami infokan"]	
+    },
+    {"tag" : "Stock Barang Adidas NMD_R1 (FV1740)",
+    "patterns" : ["Apakah Produk Sepatu Adidas NMD_R1 (FV1740) ready stock?"],
+    "responses" : ["Untuk produk tersebut tidak ready stock ya kak, jika sudah ready akan kami infokan"]	
+    },
+    {"tag" : "Stock Barang Reebok Nano X Shoes",
+    "patterns" : ["Apakah Produk Sepatu Reebok Nano X Shoes ready stock?"],
+    "responses" : ["Untuk produk tersebut ready stock ya kak silahkan untuk di order"]	
+    },
+    {"tag" : "Stock Barang Adidas NMS_R1 (GZ7944)",
+    "patterns" : ["Apakah Produk Sepatu Adidas NMS_R1 (GZ7944) ready stock?"],
+    "responses" : ["Untuk produk tersebut ready stock ya kak silahkan untuk di order"]	
+    }
+]
+}
